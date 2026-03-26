@@ -1,5 +1,7 @@
-﻿// See https://aka.ms/new-console-template for more information
 using TPmodul5_103082400004;
+
+HaloGeneric halo = new HaloGeneric();
+halo.SapaUser<string>("Yumina");
 
 DataGeneric<string> dataNIM = new DataGeneric<string>("103082400004");
 dataNIM.PrintData();
